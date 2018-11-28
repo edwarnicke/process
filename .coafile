@@ -1,11 +1,12 @@
 [all]
-ignore = .tox/**,
-    .git/**,
+ignore = .git/**,
     .gitignore,
     .gitreview,
+    .tox/**,
     node_modules/**,
-    **.sw?,
-    **.orig
+    docs/_build/**,
+    **.orig,
+    **.sw?
 
 [all.reStructuredText]
 bears = RSTcheckBear
@@ -15,6 +16,8 @@ files = **.rst
 bears = LineLengthBear
 files = **.rst, **.txt
 max_line_length = 79
+ignore_length_regex = http://,
+    https://
 
 [all.spacing]
 bears = SpaceConsistencyBear
