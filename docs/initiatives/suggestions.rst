@@ -2,6 +2,24 @@
 Suggestions for LFN Initiatives
 ===============================
 
+Update Infra
+------------
+
+LFN Projects are using a Gerrit+Jenkins+Nexus infra that is both antequated and
+expensive to maintain.  More modern open source projects tend to use Github based
+infra like:
+
+* Github - SCM
+* CircleCI or TravisCI or other cloud based CI - CI
+* Various artifact repo as a service services
+* Github Issues - Bug tracking
+* Github + Hugo + Netlify - Websites/doc sites
+
+This subgroup will explore cross project how to POC, and perhaps migrate LFN
+projects to such more modern infra.  
+
+It is important to be clear: no community should change if it does not see benefit.
+
 CII Badging
 -----------
 
