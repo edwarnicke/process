@@ -9,7 +9,7 @@ LFN Projects are using a Gerrit+Jenkins+Nexus infra that is both antequated and
 expensive to maintain.  More modern open source projects tend to use Github based
 infra like:
 
-* Github - SCM
+* Github - Source Code Management
 * CircleCI or TravisCI or other cloud based CI - CI
 * Various artifact repo as a service services
 * Github Issues - Bug tracking
